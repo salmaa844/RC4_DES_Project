@@ -1,0 +1,76 @@
+.root {
+    -fx-font-family: Arial;
+    -fx-padding: 10;
+}
+
+.button {
+    -fx-background-color: #0073e6;
+    -fx-text-fill: white;
+    -fx-padding: 10;
+    -fx-cursor: hand;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #005bb5;
+}
+
+.button:pressed {
+    -fx-background-color: #003f7f;
+}
+
+.select-button {
+    -fx-background-color: #28a745;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.select-button:hover {
+    -fx-background-color: #218838;
+}
+
+.select-button:pressed {
+    -fx-background-color: #1e7e34;
+}
+
+.label {
+    -fx-font-size: 14;
+    -fx-text-fill: #333333;
+}
+
+.tab-pane {
+    -fx-background-color: #f5f5f5;
+    -fx-border-color: #dcdcdc;
+    -fx-border-width: 1;
+    -fx-tab-min-width: 120;
+    -fx-tab-max-width: 120;
+}
+
+.tab {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #dcdcdc;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 5;
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+}
+
+.tab:selected {
+    -fx-background-color: #0073e6;
+    -fx-text-fill: white;
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+}
+
+.tab:hover {
+    -fx-background-color: #e6f3ff;
+}
+
+.tab-content-area {
+    -fx-background-color: #ffffff;
+    -fx-padding: 15;
+}
